@@ -39,6 +39,16 @@
 (el-get 'sync 'auto-complete)
 
 ; ----------------------------------------
+; helm
+; ----------------------------------------
+
+(el-get 'sync 'helm)
+(require 'helm)
+(require 'helm-config)
+(global-set-key (kbd "C-c h") 'helm-mini)
+(helm-mode t)
+
+; ----------------------------------------
 ; undo-tree
 ; ----------------------------------------
 
