@@ -56,4 +56,3 @@
 ; ----------------------------------------
 
 (require 'githublike-theme)
-(load-theme 'githublike t)
