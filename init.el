@@ -44,3 +44,16 @@
 
 (el-get 'sync 'magit)
 (require 'magit)
+
+; ----------------------------------------
+; user libraries
+; ----------------------------------------
+
+(add-to-list 'load-path "~/.emacs.d/lib")
+
+; ----------------------------------------
+; theme
+; ----------------------------------------
+
+(require 'githublike-theme)
+(load-theme 'githublike t)
