@@ -56,3 +56,15 @@
 ; ----------------------------------------
 
 (require 'githublike-theme)
+
+; ----------------------------------------
+; haskell
+; ----------------------------------------
+
+(el-get 'sync 'haskell-mode)
+(el-get 'sync 'structured-haskell-mode)
+(require 'haskell-mode)
+(require 'shm)
+(add-hook 'haskell-mode-hook 'structured-haskell-mode)
+(set-face-background 'shm-current-face "#eeeeff")
+(set-face-background 'shm-quarantine-face "#ff8888")
