@@ -39,14 +39,22 @@
 (el-get 'sync 'auto-complete)
 
 ; ----------------------------------------
+; anything
+; ----------------------------------------
+
+(el-get 'sync 'anything)
+(require 'anything)
+(require 'anything-config)
+
+; ----------------------------------------
 ; helm
 ; ----------------------------------------
 
-(el-get 'sync 'helm)
-(require 'helm)
-(require 'helm-config)
-(global-set-key (kbd "C-c h") 'helm-mini)
-(helm-mode t)
+;(el-get 'sync 'helm)
+;(require 'helm)
+;(require 'helm-config)
+;(global-set-key (kbd "C-c h") 'helm-mini)
+;(helm-mode t)
 
 ; ----------------------------------------
 ; undo-tree
@@ -85,3 +93,10 @@
 (add-hook 'haskell-mode-hook 'structured-haskell-mode)
 (set-face-background 'shm-current-face "#eeeeff")
 (set-face-background 'shm-quarantine-face "#ff8888")
+
+; ----------------------------------------
+; JavaScript
+; ----------------------------------------
+
+(el-get 'sync 'js2-mode)
+(require 'js2-mode)
