@@ -101,3 +101,10 @@
 (el-get 'sync 'js2-mode)
 (require 'js2-mode)
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
+
+; ----------------------------------------
+; term+
+; ----------------------------------------
+
+(el-get 'sync 'term+)
+(require 'term+)
