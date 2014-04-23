@@ -13,7 +13,7 @@
   '(make-backup-files nil)
   '(auto-save-default nil))
 
-(setq indent-tabs-mode nil)
+(setq-default indent-tabs-mode nil)
 (setq c-basic-offset 2)
 
 ; ----------------------------------------
