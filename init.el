@@ -111,3 +111,9 @@
 
 (el-get 'sync 'term+)
 (require 'term+)
+
+; ----------------------------------------
+; ProofGeneral
+; ----------------------------------------
+
+(el-get 'sync 'ProofGeneral)
